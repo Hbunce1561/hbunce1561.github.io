@@ -25,7 +25,7 @@
         border: 6px double #ffffff;
         border-radius: 5px;
         width: 200px;
-        height:100px;
+        height: 100px;
         color: #feffff;
         text-align: center;
         font-family:Arial;
@@ -42,13 +42,37 @@
         color: #4b9cd3;
         
       }
+      .button2 {
+        display: inline-block;
+        background: var(--bg-image);
+        background-size: 250px 350px;
+        border: 6px double #4b9cd3;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+        color: #4b9cd3;
+        text-align: center;
+        font-family:Arial;
+        font-size:120%;
+        cursor:pointer;
+        margin:10px;
+        transition-duration: 0.4s;
+        
+      }
+      .button2:hover{
+        border: 6px double #ffffff;
+        border-radius: 5px;
+        background-color: #4b9cd3;
+        color: #ffffff;  
+      }
+      
       .p{
         background: #ffffff;
         background-image: linear-gradient(to right,  rgba(255,255,255,.5),rgba(255,255,255,.75),rgba(255,255,255,.85),rgba(255,255,255,.75),rgba(255,255,255,.5)),url('PXL_20220422_141626546.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed; 
         background-size: cover;
-        padding:20%;
+        padding:1%;
         font-family: "Calibri";
         font-size: 30px;
         line-height: 32px;
@@ -71,17 +95,21 @@
         font-family: "Calibri";
         color:#f0f0f0;
       }
+      html{
+      scroll-behavior: smooth;
+      }
       </style>
      
 <header>
-    <button class = "button"  onclick="window.location.href='https://github.com/hbunce1561'">GitHub</button>
-    <button class = "button"  onclick="window.location.href='Reviews.html'">Reviews</button>
-    <button class = "button"  onclick="window.location.href='https://youtube.com/@avictoryforfear'">Music</button>
+	<button class = "button"  onclick="window.location.href='reviews.html'">Movies</button>
+    <button class = "button"  onclick="window.location.href='games.html'">Games</button>
     <button class = "button"  onclick="window.location.href='index.html'">Home</button>
   </header>
-  <iframe src="./Resume_Git.pdf" width="100%" height="100%" >
-
-<footer class= "footer">© Hayden Bunce 2023 </footer>
+  <p class = "p">
+   <button class="button2" style="--bg-image: url('https://m.media-amazon.com/images/I/51Mj9bQ+LzL._UX716_FMwebp_QL85_.jpg');" onclick="window.location.href='libad.html'"></button>
+<button class="button2" style="--bg-image: url('https://i.scdn.co/image/ab67616d0000b273b01942b135e9b5548a67ad13');" onclick="window.location.href='dgdjj.html'"></button>
+  <footer class="footer">© Hayden Bunce 2023 </footer>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
 

@@ -24,28 +24,12 @@
         background-color: #4b9cd3;
         border: 6px double #ffffff;
         border-radius: 5px;
-        width: 50%;
-        height: 25%;
+        width: 200px;
+        height: 100px;
         color: #feffff;
         text-align: center;
         font-family:Arial;
-        font-size:100%;
-        cursor:pointer;
-        margin:10px;
-        transition-duration: 0.4s;
-        opacity:75%;
-      }
-      .button2 {
-        display: inline-block;
-        background-color: #feffff;
-        border: 6px double #4b9cd3;
-        border-radius: 5px;
-        width: 200px;
-        height: 100px;
-        color: #4b9cd3;
-        text-align: center;
-        font-family:Arial;
-        font-size:120%;
+        font-size:200%;
         cursor:pointer;
         margin:10px;
         transition-duration: 0.4s;
@@ -58,21 +42,35 @@
         color: #4b9cd3;
         
       }
+      .button2 {
+        display: inline-block;
+        background: var(--bg-image);
+        background-size: 250px 350px;
+        border: 6px double #4b9cd3;
+        border-radius: 5px;
+        width: 250px;
+        height:350px;
+        color: #4b9cd3;
+        text-align: center;
+        font-family:Arial;
+        font-size:120%;
+        cursor:pointer;
+        margin:10px;
+        transition-duration: 0.4s;
+        
+      }
       .button2:hover{
         border: 6px double #ffffff;
         border-radius: 5px;
         background-color: #4b9cd3;
-        color: #ffffff;
-        
+        color: #ffffff;  
       }
+      
       .p{
-        background: #ffffff;
-        background-image: linear-gradient(to right,  rgba(255,255,255,.5),rgba(255,255,255,.75),rgba(255,255,255,.85),rgba(255,255,255,.75),rgba(255,255,255,.5)),url('PXL_20220422_141626546.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        background-size: cover;
-        padding:1%;
-        font-family: "Calibri";
+       	 background: #000000;
+     	 background-size: cover;
+    	  padding:1%;
+    	  font-family: "Calibri";
         font-size: 30px;
         line-height: 32px;
         font-weight: 500;
@@ -82,8 +80,22 @@
         font-size: 60px;
         line-height: 48px;
         font-weight: 600;
-        Color:#13294b
+        Color:#ffffff
+        }
+      .p2{
+        font-size: 20px;
+        line-height:32px;
+        font-weight: 450;
+        Color:#ffffff
       }
+	.p3{
+ 	font-size: 48px;
+        line-height:48px;
+        font-weight: 600;
+        Color:#ffffff
+      }
+
+
       .iframe{
         
          width: 30%; 
@@ -99,21 +111,25 @@
       }
       </style>
      
+<header>
+	<button class = "button"  onclick="window.location.href='reviews.html'">Movies</button>
+    <button class = "button"  onclick="window.location.href='Music.html'">Music</button>
+    <button class = "button"  onclick="window.location.href='games.html'">Games</button>
+    <button class = "button"  onclick="window.location.href='index.html'">Home</button>
+  </header>
   <p class = "p">
+ 	<p1 class = "p1">
+    Shadow of the Colossus (2018 Remake)
+ </p1>
+    <br><br>
+    <br>
+    <p2 class = "p2">
 
- <br>
-<button class = "button"  onclick="window.location.href='https://github.com/hbunce1561'">GitHub</button><br><br>
-    <button class = "button"  onclick="window.location.href='reviews.html'">Reviews</button><br><br>
 
-    <button class = "button"  onclick="window.location.href='https://avictoryforfear.com'">Music</button><br><br>
-
-    <button class = "button"  onclick="window.location.href='Resume.html'">Resume</button><br><br>
-
-  Latest Music from My Band:
-  <br><br>
-
-  <iframe class = "iframe" src="https://www.youtube.com/embed/sGuzIxFIH_c?si=z5pOttxWY67QIImY" title="A Victory for Fear - Sunny Days" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <br>
+<br><br>
+<p1 class = "p1">
+Coming soon
+</p1>
 
   <footer class="footer">© Hayden Bunce 2023 </footer>
 <script type="text/javascript" src="js/script.js"></script>
