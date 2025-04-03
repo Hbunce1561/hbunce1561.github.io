@@ -1,115 +1,89 @@
 <html>
-<title>Hayden Bunce</title>
+<title>Movie Reviews</title>
 <body>
-   
     <style>
+        
     body{
-    background-color:#13294b;
+    background-color:#4b9cd3;
+    
     }
+   
     header{
-    color:#feffff; 
-    text-align:center;
-    font-family:"Calibri";
-    }
-    h2{
-    color:white; 
-    text-align:center;
-    font-family:"Calibri";
-    }
-    p{
     text-align: center;
+    background-image: linear-gradient(to right,  rgba(255,255,255,.5),rgba(255,255,255,.75),rgba(255,255,255,.9),rgba(255,255,255,.75),rgba(255,255,255,.5)),url('PXL_20220422_141626546.jpg');
+    background-blend-mode: screen;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     }
-      .button {
+    p{        
+    text-align: center;
+    line-height: 120px;
+    font-size: 24px;
+    font:bolder;
+    background-image: linear-gradient(to right,rgba(255,255,255,.15),rgba(255,255,255,.15),rgba(255,255,255,.15)),url('PXL_20220422_141626546.jpg');
+    background-blend-mode: screen;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    button {
         display: inline-block;
         background-color: #4b9cd3;
         border: 6px double #ffffff;
         border-radius: 5px;
-        width: 200px;
-        height: 100px;
+        width: 150;
+        height: 50px;
         color: #feffff;
         text-align: center;
         font-family:Arial;
-        font-size:200%;
+        font-size:24px;
         cursor:pointer;
         margin:10px;
         transition-duration: 0.4s;
-        
       }
-      .button:hover{
+      button:hover{
         border: 6px double #4b9cd3;
         border-radius: 5px;
         background-color: #ffffff;
         color: #4b9cd3;
-        
       }
-      .button2 {
+	button2 {
         display: inline-block;
         background: var(--bg-image);
+	background-position: center;
         background-size: 250px 350px;
         border: 6px double #4b9cd3;
         border-radius: 5px;
         width: 250px;
         height:350px;
-        color: #4b9cd3;
         text-align: center;
-        font-family:Arial;
-        font-size:120%;
         cursor:pointer;
         margin:10px;
         transition-duration: 0.4s;
         
       }
-      .button2:hover{
+      button2:hover{
         border: 6px double #ffffff;
         border-radius: 5px;
         background-color: #4b9cd3;
         color: #ffffff;  
       }
-      
-      .p{
-        background: #ffffff;
-        background-image: linear-gradient(to right,  rgba(255,255,255,.5),rgba(255,255,255,.75),rgba(255,255,255,.85),rgba(255,255,255,.75),rgba(255,255,255,.5)),url('PXL_20220422_141626546.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        background-size: cover;
-        padding:1%;
-        font-family: "Calibri";
-        font-size: 30px;
-        line-height: 32px;
-        font-weight: 500;
-        Color:#13294b
-      }
-      .p1{
-        font-size: 60px;
-        line-height: 48px;
-        font-weight: 600;
-        Color:#13294b
-      }
-      .iframe{
+    
+    </style>
+    
+   <header>
+        <button onclick="window.location.href='https://hbunce1561.github.io'">Home</button>
+        <button onclick="window.location.href='games.html'">Games</button>
+        <button onclick="window.location.href='music.html'">Music</button>
         
-         width: 30%; 
-         height: 30%; 
-      }
-      .footer{
-        text-align: center;
-        font-family: "Calibri";
-        color:#f0f0f0;
-      }
-      html{
-      scroll-behavior: smooth;
-      }
-      </style>
-     
-<header>
-    <button class = "button"  onclick="window.location.href='music.html'">Music</button>
-    <button class = "button"  onclick="window.location.href='games.html'">Games</button>
-    <button class = "button"  onclick="window.location.href='index.html'">Home</button>
-  </header>
-  <p class = "p">
-  <button class="button2" style="--bg-image: url('https://upload.wikimedia.org/wikipedia/en/5/51/Terrifier_3_poster.jpg');" onclick="window.location.href='T3rrifier.html'"></button>
-  <button class="button2" style="--bg-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2024/01/tarot-2024-movie-poster.jpg');" onclick="window.location.href='Tarot.html'"></button>
-  <footer class="footer">© Hayden Bunce 2023 </footer>
-<script type="text/javascript" src="js/script.js"></script>
+    </header>
+        <p>
+  <button2 style="--bg-image: url('https://upload.wikimedia.org/wikipedia/en/5/51/Terrifier_3_poster.jpg');" onclick="window.location.href='T3rrifier.html'"></button2>
+  <button2 style="--bg-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2024/01/tarot-2024-movie-poster.jpg');" onclick="window.location.href='Tarot.html'"></button2>
+<br>
+    </p>
 </body>
-</html>
 
